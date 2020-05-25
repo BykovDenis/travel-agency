@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $base-font-color;
+  text-decoration: none;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  &__title1 {
+    display: inline-block;
+    vertical-align: top;
+    font: #{$base-font-size} / #{0.94} $base-font-family;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  &__title2 {
+    font: 13px / 0.76 $myriad-font-family;
+    text-transform: uppercase;
+  }
+  &__img {
+    margin-right: 5px;
+  }
+}

@@ -33,7 +33,9 @@
     "jquery": "^3.4.1",
     "plumber": "^0.4.8",
     "popper": "^1.0.1",
-    "run-sequence": "^2.2.1"
+    "run-sequence": "^2.2.1",
+    "stylelint": "13.5.0",
+    "stylelint-config-htmlacademy": "0.1.4"
   },
   "author": "Denis Bykov",
   "license": "ISC"
