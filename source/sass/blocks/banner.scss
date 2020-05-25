@@ -1,0 +1,21 @@
+.banner {
+  margin-top: 200px;
+  &__pre-title {
+    font: 400 28px / 1.1 $segoe-script-font-family;
+    color: $light-red;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__title {
+    font: 600 41px / 1.58 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__description {
+    font: 400 28px / 1.01 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,21 @@
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__item {
+    margin-right: 45px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 600 14px / 0.54 $montserrat-font-family;
+    color: $base-font-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

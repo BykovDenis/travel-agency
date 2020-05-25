@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans Regular"),
+    url("../fonts/opensans.woff2") format("woff2"),
+    url("../fonts/opensans.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans Bold"),
+    url("../fonts/opensansbold.woff2") format("woff2"),
+    url("../fonts/opensansbold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MyriadPro";
+
+  src: url("../fonts/MyriadProRegular.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/MyriadProRegular.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/MyriadProRegular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+
+  src: url("../fonts/Poppins-Regular.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Poppins-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+
+  src: url("../fonts/Montserrat-Regular.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/Montserrat-Regular.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Montserrat-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+
+  src: url("../fonts/Montserrat-SemiBold.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/Montserrat-SemiBold.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Montserrat-SemiBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+
+  src: url("../fonts/Montserrat-Bold.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Montserrat-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SegoeScript";
+
+  src: url("../fonts/Segoe.ttf") format("truetype"), /* Safari, Android, iOS */
+  url("../fonts/Segoe.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Segoe.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

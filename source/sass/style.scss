@@ -1,3 +1,13 @@
+@import './normalize';
+@import './variables';
+@import './fonts';
+@import './blocks/main-header';
+@import './blocks/logo';
+@import './blocks/menu-list';
+@import './blocks/btn';
+@import './blocks/banner';
+
 body {
-  box-sizing: border-box;
+  width: $page-width;
+  margin: 0 auto;
 }

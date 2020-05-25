@@ -3,52 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Travel Agency</title>
-    <link href="../sass/style.scss" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="#" alt="Mocco group travel agency">
-                <p>
-                    <span>Mocco Group</span>
-                    <span>Travell Agency</span>
+    <header class="main-header">
+        <nav class="main-header__container">
+            <a href="#" class="logo">
+                <img class="logo__img" src="./img/icon-logo.png" width="51" height="37" alt="Mocco group travel agency">
+                <p class="logo__container">
+                    <span class="logo__title1">Mocco Group</span>
+                    <span class="logo__title2">Travell Agency</span>
                 </p>
-            </div>
+            </a>
             <ul class="menu-list">
-                <li>
-                    <a href="blank.html">Home</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">Home</a>
                 </li>
-                <li>
-                    <a href="blank.html">About</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">About</a>
                 </li>
-                <li>
-                    <a href="blank.html">Tour</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">Tour</a>
                 </li>
-                <li>
-                    <a href="blank.html">Hotels</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">Hotels</a>
                 </li>
-                <li>
-                    <a href="blank.html">Blog</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">Blog</a>
                 </li>
-                <li>
-                    <a href="blank.html">Contact</a>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="blank.html">Contact</a>
                 </li>
-                <li>
-                    <a href="blank.html">Book Now</a>
+                <li class="menu-list__item">
+                    <a class="btn" href="#">Book Now</a>
                 </li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <div class="banner">
+        <div class="main-header__container banner">
             <div class="banner__container">
-                <p>World Best Travell Agency</p>
-                <p>Save Upto 40% For Upcoming Summer</p>
-                <p>Starts From $250 Only   ( 2 Days, 3 Nights)</p>
-                <button>Explore Now</button>
+                <p class="banner__pre-title">World Best Travell Agency</p>
+                <p class="banner__title">Save Upto 40% For Upcoming Summer</p>
+                <p class="banner__description">Starts From $250 Only   ( 2 Days, 3 Nights)</p>
+                <a class="btn" href="#">Explore Now</a>
             </div>
         </div>
+    </header>
+    <main>
         <section class="feature-trip">
             <div class="feature-trip__container">
                 <h2>Our agency</h2>
@@ -722,6 +722,6 @@
             </div>
         </div>
     </footer>
-<script src="../js/index.js"></script>
+<script src="../js/index.min.js"></script>
 </body>
 </html>
