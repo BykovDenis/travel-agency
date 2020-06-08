@@ -22,8 +22,16 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-right: 5px;
+    font: 600 14px / 1.86 $montserrat-font-family;
+    color: $base-font-color;
   }
   &__rating-title {
+    padding-right: 5px;
+    font: 600 14px / 1.86 $montserrat-font-family;
+    color: $base-font-color;
+  }
+  &__review {
     padding-right: 5px;
     font: 600 14px / 1.86 $montserrat-font-family;
     color: $base-font-color;
