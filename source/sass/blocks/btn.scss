@@ -9,4 +9,8 @@
   &:hover {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
   }
+  &--discover {
+    text-transform: none;
+    font-size: 400 #{$badge-font-size - 2px} / 1.85 $montserrat-font-family;
+  }
 }

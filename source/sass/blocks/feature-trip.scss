@@ -1,0 +1,40 @@
+.feature-trip {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  &__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: $container-width;
+  }
+  &__title-container {
+    max-width: 270px;
+  }
+  &__pre-title {
+    font: 400 24px / 1.08 $segoe-script-font-family;
+    color: $light-red;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 80px;
+  }
+  &__title {
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  &__description {
+    width: 270px;
+    font: 400 #{$base-font-size} / 1.75 $poppins-font-family;
+    color: $color-gray;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  &__cards {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -6,8 +6,14 @@
 @import './blocks/menu-list';
 @import './blocks/btn';
 @import './blocks/banner';
+@import './blocks/feature-trip';
+@import './blocks/feature-trip-card';
 
 body {
   width: 100%;
   margin: 0 auto;
+}
+
+ul {
+  padding-left: 0;
 }

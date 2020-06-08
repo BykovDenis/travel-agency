@@ -1,0 +1,29 @@
+.feature-trip-card {
+  margin-right: 30px;
+  &__title {
+    font: 700 20px / 1.3 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    text-align: center;
+  }
+  &__img {
+    margin-bottom: 20px;
+  }
+  &__action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__rating-title {
+    padding-right: 5px;
+    font: 600 14px / 1.86 $montserrat-font-family;
+    color: $base-font-color;
+  }
+}
