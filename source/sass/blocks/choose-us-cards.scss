@@ -1,0 +1,26 @@
+.choose-us-cards {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  &__item {
+    background-color: $color-white;
+    width: 470px;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 70px;
+  }
+  &__description {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font: 400 #{$base-font-size} / 1.75 $poppins-font-family;
+    color: $color-gray;
+    text-align: left;
+  }
+  &__title {
+    text-align: left;
+    font: 700 24px / 1.08 $montserrat-font-family;
+    color: $color-light-blue;
+    margin: 30px 0;
+  }
+}
