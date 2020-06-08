@@ -1,0 +1,31 @@
+.convenience-slider {
+  position: relative;
+  margin: 0 auto;
+  width: $container-width;
+
+  &__prev,
+  &__next {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: $color-light-red;
+    color: $color-white;
+  }
+
+  &__prev {
+    left: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-right: 3px;
+  }
+
+  &__next {
+    right: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+}

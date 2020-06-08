@@ -14,7 +14,7 @@
   }
   &__pre-title {
     font: 400 24px / 1.08 $segoe-script-font-family;
-    color: $light-red;
+    color: $color-light-red;
     margin: 0;
     margin-bottom: 10px;
     margin-top: 80px;
@@ -36,5 +36,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    position: relative;
+    margin-top: -115px;
+    background-color: transparent;
   }
 }

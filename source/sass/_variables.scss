@@ -12,12 +12,14 @@ $base-font-size: 16px;
 $base-path-img: '../../img/';
 
 $light-blue: #bbdbef;
-$black: #222222;
-$light-red: #ef5b5b;
-$white: #ffffff;
+$color-black: #222222;
+$color-light-red: #ef5b5b;
+$color-white: #ffffff;
 $color-gray: #808080;
+$color-light-gray: #f0efef;
 
 $bg-header: $light-blue;
-$base-font-color: $black;
-$base-btn-color: $light-red;
+$base-font-color: $color-black;
+$base-btn-color: $color-light-red;
+$bg-part: $color-light-gray;
 
