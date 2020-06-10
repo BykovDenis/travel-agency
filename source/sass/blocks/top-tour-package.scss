@@ -34,4 +34,44 @@
     text-align: center;
     z-index: 1;
   }
+  &__container {
+    position: relative;
+    width: 100%;
+    height: 621px;
+    overflow-x: hidden;
+    margin-bottom: 150px;
+  }
+  &__prev,
+  &__next {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    margin-top: 302px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: $color-light-red;
+    color: $color-white;
+  }
+
+  &__navigation-container {
+    position: relative;
+    width: $container-width;
+    margin: 0 auto;
+    height: 28px;
+    z-index: 3;
+  }
+  &__prev {
+    left: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-right: 3px;
+  }
+
+  &__next {
+    right: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
 }

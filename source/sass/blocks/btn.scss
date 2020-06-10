@@ -17,4 +17,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+  &--custome-packege {
+    box-sizing: border-box;
+    border: 0;
+    height: 70px;
+    width: 148px;
+    border-radius: 0;
+  }
 }

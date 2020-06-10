@@ -1,5 +1,7 @@
 .top-tour-package-slider {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  left: -30px;
   z-index: 1;
   &__items {
     width: 100%;
