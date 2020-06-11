@@ -1,0 +1,34 @@
+.profit {
+  background-color: $color-light-red;
+  color: $color-white;
+  &__items {
+    width: $container-width;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  &__counter {
+    margin: 0;
+    margin-bottom: 10px;
+    font: 900 48px / 0.58 $montserrat-font-family;
+  }
+  &__description {
+    margin: 0;
+    font: 400 18px / 1.56 $poppins-font-family;
+  }
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__img {
+    margin-right: 20px;
+  }
+}
