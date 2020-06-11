@@ -1,0 +1,13 @@
+.custome-packege {
+  position: relative;
+  z-index: 2;
+  &__container {
+    width: $container-width;
+    margin: 0 auto;
+  }
+  &__title {
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $color-white;
+    text-align: center;
+  }
+}

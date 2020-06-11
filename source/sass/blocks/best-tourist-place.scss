@@ -1,0 +1,23 @@
+.best-tourist-place {
+  &__pre-title {
+    font: 400 24px / 1.08 $segoe-script-font-family;
+    color: $color-light-red;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  &__title {
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  &__container {
+    width: $container-width;
+    margin: 0 auto;
+    background-image: url(../../img/bg-earth.png);
+    background-repeat: no-repeat;
+  }
+}

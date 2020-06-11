@@ -1,0 +1,14 @@
+.top-tour-package-slider {
+  position: absolute;
+  width: 100%;
+  left: -30px;
+  z-index: 1;
+  &__items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+  }
+}

@@ -1,0 +1,77 @@
+.top-tour-package {
+  position: relative;
+  width: 100%;
+  height: 1200px;
+  background-color: #4d6882;
+  background-image: url(../../img/bg-top-tour-package.jpg);
+  background-repeat: no-repeat;
+  padding-top: 145px;
+  &::before {
+    position: absolute;
+    content: '';
+    background-color: rgba($color-black, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  &__pre-title {
+    position: relative;
+    font: 400 24px / 1.08 $segoe-script-font-family;
+    color: $color-light-red;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    z-index: 1;
+  }
+  &__title {
+    position: relative;
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $color-white;
+    margin: 0;
+    margin-bottom: 65px;
+    text-align: center;
+    z-index: 1;
+  }
+  &__container {
+    position: relative;
+    width: 100%;
+    height: 621px;
+    overflow-x: hidden;
+    margin-bottom: 150px;
+  }
+  &__prev,
+  &__next {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    margin-top: 302px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: $color-light-red;
+    color: $color-white;
+  }
+
+  &__navigation-container {
+    position: relative;
+    width: $container-width;
+    margin: 0 auto;
+    height: 28px;
+    z-index: 3;
+  }
+  &__prev {
+    left: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-right: 3px;
+  }
+
+  &__next {
+    right: -35px;
+    border: 0;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+}
