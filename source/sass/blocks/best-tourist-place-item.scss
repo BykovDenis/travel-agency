@@ -1,0 +1,45 @@
+.best-tourist-place-item {
+  display: flex;
+  flex-direction: row;
+  &__img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 199px;
+    min-width: 199px;
+    min-height: 199px;
+    border: 1px solid $color-middle-gray;
+    margin-right: 25px;
+    margin-bottom: 70px;
+  }
+  &__title {
+    font: 700 24px / 1.08 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  &__countries {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  &__country {
+    font: 400 #{$base-font-size} / 2 $poppins-font-family;
+    color: $color-gray;
+    margin-right: 10px;
+    &::before {
+      width: 10px;
+      height: 11px;
+      margin-right: 5px;
+      content: '';
+      display: inline-block;
+      background-image: url($base-path-img + 'icon-circle.png');
+      background-size: 10px 11px;
+      background-repeat: no-repeat;
+    }
+  }
+}
