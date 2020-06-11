@@ -37,6 +37,9 @@
     "stylelint": "13.5.0",
     "stylelint-config-htmlacademy": "0.1.4"
   },
+  "engines": {
+    "node": 12
+  },
   "author": "Denis Bykov",
   "license": "ISC"
 }
