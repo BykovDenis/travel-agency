@@ -1,0 +1,20 @@
+.client-feedback {
+  &__pre-title {
+    position: relative;
+    font: 400 24px / 1.08 $segoe-script-font-family;
+    color: $color-black;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    z-index: 1;
+  }
+  &__title {
+    position: relative;
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $color-white;
+    margin: 0;
+    margin-bottom: 65px;
+    text-align: center;
+    z-index: 1;
+  }
+}

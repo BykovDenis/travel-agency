@@ -21,10 +21,17 @@
 @import './blocks/best-tourist-place';
 @import './blocks/best-tourist-place-item';
 @import './blocks/profit';
+@import './blocks/video-tour';
+@import './blocks/client-feedback';
+@import './blocks/client-feedback-slider';
+@import './blocks/client-feedback-slider-description';
+@import './blocks/latest-blog';
+@import './blocks/latest-blog-card';
 
 body {
   width: 100%;
   margin: 0 auto;
+  color: $base-font-color;
 }
 
 ul {

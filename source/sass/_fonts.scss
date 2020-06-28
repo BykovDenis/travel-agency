@@ -32,16 +32,24 @@
 
 @font-face {
   font-family: "Poppins";
-
-  src: url("../fonts/Poppins-Regular.woff") format("woff"), /* Modern Browsers */
+  src: url("../fonts/Poppins-Regular.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/Poppins-Regular.woff") format("woff"), /* Modern Browsers */
   url("../fonts/Poppins-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.svg") format("svg"), /* Legacy iOS */
+  url("../fonts/Poppins-Medium.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Poppins-Medium.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat";
-
   src: url("../fonts/Montserrat-Regular.svg") format("svg"), /* Legacy iOS */
   url("../fonts/Montserrat-Regular.woff") format("woff"), /* Modern Browsers */
   url("../fonts/Montserrat-Regular.woff2") format("woff2"); /* Modern Browsers */

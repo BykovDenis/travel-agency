@@ -1,0 +1,30 @@
+.video-tour {
+  background-image: url($base-path-img + 'bg-video-tour.jpg');
+  background-size: cover;
+  width: 100%;
+  &__container {
+    margin: 0 auto;
+    height: 2201px;
+  }
+  &__intro {
+    width: $container-width;
+    margin: 0 auto;
+    padding-top: 870px;
+    padding-bottom: 315px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  &__btn {
+    background-color: transparent;
+    border: 0;
+    &:hover {
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+    }
+  }
+  &__title {
+    font: 900 48px / 0.58 $poppins-font-family;
+    color: $color-white;
+  }
+}
+
