@@ -1,0 +1,61 @@
+.latest-blog-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 535px;
+  &__title {
+    font: 600 20px / 1.4 $montserrat-font-family;
+    text-align: left;
+  }
+  &__description {
+    font: 400 #{$base-font-size} / 1.75 $montserrat-font-family;
+    color: $color-gray;
+    text-align: left;
+  }
+  &__img {
+    margin-right: 15px;
+  }
+  &__date,
+  &__time {
+    font: 600 #{$base-font-size} / 0.57 $poppins-font-family;
+    color: $color-gray;
+  }
+  &__date {
+    margin-right: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: pre;
+    &:before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 17px;
+      background-image: url($base-path-img + 'icon-calendar.png');
+      margin-right: 5px;
+    }
+  }
+  &__time {
+    margin-right: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    white-space: pre;
+    &:before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 17px;
+      background-image: url($base-path-img + 'icon-clock.png');
+      margin-right: 5px;
+    }
+  }
+  &__calendar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}

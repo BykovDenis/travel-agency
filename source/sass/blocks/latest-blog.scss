@@ -1,0 +1,29 @@
+.latest-blog {
+  text-align: center;
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    width: $container-width;
+    margin: 0 auto;
+    margin-bottom: 65px;
+  }
+  &__pre-title {
+    font: 400 24px / 1.08 $segoe-script-font-family;
+    color: $color-light-red;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 150px;
+    text-align: center;
+  }
+  &__title {
+    font: 700 28px / 0.93 $montserrat-font-family;
+    color: $base-font-color;
+    margin: 0;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  &__btn-see-all {
+    margin: 0 auto;
+  }
+}
