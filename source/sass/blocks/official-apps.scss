@@ -1,0 +1,76 @@
+.official-apps {
+  &__container {
+    position: relative;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: $container-width;
+  }
+  &__description {
+    width: 570px;
+  }
+  &__img-container {
+    position: relative;
+    margin-left: -25px;
+  }
+  &__img {
+    margin-left: -25px;
+  }
+  &__title {
+    font: 900 28px / 1.64 $montserrat-font-family;
+    color: $base-font-color;
+    text-transform: uppercase;
+  }
+  &__description {
+    font: 400 #{$base-font-size} / 1.75 $poppins-font-family;
+    color: $color-gray;
+  }
+  &__btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 400 14px / 1.43 $poppins-font-family;
+    text-transform: none;
+    width: 200px;
+    text-align: center;
+    margin-right: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    &--android {
+      display: block;
+      background-image: url($base-path-img + 'icon-android-white.png');
+      background-repeat: no-repeat;
+      background-position: 25px 50%;
+    }
+    &--apple {
+      display: block;
+      background-image: url($base-path-img + 'icon-apple-white.png');
+      background-repeat: no-repeat;
+      background-position: 25px 50%;
+    }
+  }
+  &__os {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  &__labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    width: 9t0px;
+    & > p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
