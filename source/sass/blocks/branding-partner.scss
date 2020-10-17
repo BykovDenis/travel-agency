@@ -1,13 +1,9 @@
-.latest-blog {
+.branding-partner {
+  background-color: $color-black-2;
+  color: $color-white;
   text-align: center;
-  margin-bottom: 180px;
   &__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    width: $container-width;
-    margin: 0 auto;
-    margin-bottom: 65px;
+    padding-bottom: 200px;
   }
   &__pre-title {
     font: 400 24px / 1.08 $segoe-script-font-family;
@@ -19,12 +15,21 @@
   }
   &__title {
     font: 600 28px / 0.93 $montserrat-font-family;
-    color: $base-font-color;
+    color: $color-white;
     margin: 0;
     margin-bottom: 90px;
     text-align: center;
   }
-  &__btn-see-all {
+  &__img-container {
     margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img {
+    margin-left: 80px;
+    &:first-of-type {
+      margin-left: 0;
+    }
   }
 }
