@@ -66,6 +66,7 @@ function clean() {
 function copy() {
   return src([
     "source/api/**",
+    "source/fonts/**"
   ], {
     base: "source"
   })

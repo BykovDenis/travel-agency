@@ -1,0 +1,21 @@
+.subscribe-form {
+  box-sizing: border-box;
+  width: 550px;
+  height: 80px;
+  &__input {
+    width: 460px;
+    height: 80px;
+    font: 500 20px / 1.4 $poppins-font-family;
+    padding-left: 28px;
+    color: $color-gray;
+  }
+  &__btn {
+    background-color: $color-blue;
+    background-image: url($base-path-img + 'icon-telegram.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 90px;
+    height: 80px;
+  }
+}

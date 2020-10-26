@@ -79,9 +79,9 @@
 @font-face {
   font-family: "SegoeScript";
 
-  src: url("../fonts/Segoe.ttf") format("truetype"), /* Safari, Android, iOS */
-  url("../fonts/Segoe.woff") format("woff"), /* Modern Browsers */
-  url("../fonts/Segoe.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/Segoe.woff") format("woff"), /* Modern Browsers */
+  url("../fonts/Segoe.woff2") format("woff2"), /* Modern Browsers */
+  url("../fonts/Segoe.ttf") format("truetype"); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
 }

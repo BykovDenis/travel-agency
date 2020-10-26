@@ -1,7 +1,18 @@
 .branding-partner {
-  background-color: $color-black-2;
+  position: relative;
+  background-color: rgba($color-black-origin, 0.8);
   color: $color-white;
   text-align: center;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    background-image: url($base-path-img + 'bg-branding-partner.jpg');
+  }
   &__container {
     padding-bottom: 200px;
   }
