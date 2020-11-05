@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Travel Agency</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -710,7 +711,7 @@
             </div>
             <div class="subscribe">
                 <div class="subscribe__container">
-                    <div>
+                    <div class="subscribe__content">
                         <h3 class="subscribe__title">Subscribe Our NewsLetter</h3>
                         <p class="subscribe__description">Pleasure and praising pain was born and I will give you a complete account of the system,
                             human happiness Pleasure and praising pain was born and I will give you an account know that.</p>
@@ -723,49 +724,51 @@
             </div>
         </section>
         <section class="feedback-message">
-            <p class="feedback-message__pre-title">We are ready to help you</p>
-            <h2 class="feedback-message__title">Your Message</h2>
-            <form action="post" class="feedback-message__form feedback-message-form">
-                <ul class="feedback-message-form__items">
-                    <li class="feedback-message-form__item">
-                        <label for="fullname" class="feedback-message__label">Your Full Name</label>
-                        <input id="fullname"  type="text" class="feedback-message__input">
-                    </li>
-                    <li class="feedback-message-form__item">
-                        <label for="address" class="feedback-message__label">Address Here</label>
-                        <input id="address" type="text" class="feedback-message__input">
-                    </li>
-                    <li class="feedback-message-form__item">
-                        <label for="email" class="feedback-message__label">Email / Phone Number</label>
-                        <input id="email" type="text" class="feedback-message__input">
-                    </li>
-                    <li class="feedback-message-form__item">
-                        <label for="message" class="feedback-message__label">Your Message</label>
-                        <input id="message" type="text" class="feedback-message__input">
-                    </li>
-                </ul>
-                <button type="submit" class="feedback-message-form__btn">Submitted</button>
-            </form>
+            <div class="feedback-message__container">
+                <p class="feedback-message__pre-title">We are ready to help you</p>
+                <h2 class="feedback-message__title">Your Message</h2>
+                <form method="post" action="#" class="feedback-message__form feedback-message-form">
+                    <ul class="feedback-message-form__items">
+                        <li class="feedback-message-form__item">
+                            <input id="fullname"  type="text" class="feedback-message-form__input"  placeholder="Your Full Name">
+                        </li>
+                        <li class="feedback-message-form__item">
+                            <input id="address" type="text" class="feedback-message-form__input" placeholder="Address Here">
+                        </li>
+                        <li class="feedback-message-form__item">
+                            <input id="email" type="text" class="feedback-message-form__input" placeholder="Email / Phone Number">
+                        </li>
+                    </ul>
+                    <ul class="feedback-message-form__items">
+                        <li class="feedback-message-form__item">
+                            <textarea id="message" type="text" class="feedback-message-form__textarea" placeholder="Your Message"></textarea>
+                        </li>
+                       <li class="feedback-message-form__item">
+                            <button type="submit" class="feedback-message-form__btn btn btn--submit-form">Submitted</button>
+                       </li>
+                    </ul>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="main-footer">
         <div class="main-footer__container">
             <div class="main-footer__column">
-                <div class="logo">
-                    <img src="#" alt="Mocco group travel agency">
-                    <p>
-                        <span>Mocco Group</span>
-                        <span>Travell Agency</span>
+                <a href="#" class="logo">
+                    <img class="logo__img" src="./img/icon-logo.png" width="51" height="37" alt="Mocco group travel agency">
+                    <p class="logo__container">
+                        <span class="logo__title1">Mocco Group</span>
+                        <span class="logo__title2">Travell Agency</span>
                     </p>
-                </div>
+                </a>
                 <p class="main-footer__description">
                     Pleasure and praising pain was born and I will give you a complete account of the system, human happiness
                     Pleasure and praising pain was born and I will give you an account know that.
                 </p>
                 <div class="main-footer__contacts">
-                    <a href="tel:+9685 758 4157-60" class="main-footer__tel">+9685 758 4157-60</a>
+                    <i class="fa fa-phone-square main-footer__icon" aria-hidden="true"></i><a href="tel:+9685 758 4157-60" class="main-footer__tel">+9685 758 4157-60</a>
                     <address class="main-footer__address">
-                        4197 Sumner Street Los Angeles, CA 90017
+                        <i class="fa fa-map-marker main-footer__icon" aria-hidden="true"></i>4197 Sumner Street Los Angeles, CA 90017
                     </address>
                     <p class="main-footer__link-container">
                         Other Website:
@@ -776,9 +779,9 @@
 
                 </div>
             </div>
-            <div class="main-footer__column">
+            <div class="main-footer__column main-footer__userful-links">
                 <div class="main-footer__userful-link main-footer-userful-link">
-                    <h4 class="main-footer-userful-link__title">Useful Link</h4>
+                    <h4 class="main-footer__userful-link-title">Useful Link</h4>
                     <ul class="main-footer-list">
                         <li class="main-footer-list__item">
                             <a href="#" class="main-footer-list__link">Home</a>
@@ -804,34 +807,34 @@
                     </ul>
                 </div>
                 <div class="main-footer__userful-link main-footer-userful-link">
-                    <h4 class="main-footer-userful-link__title">Follow Us</h4>
+                    <h4 class="main-footer__userful-link-title">Follow Us</h4>
                     <ul class="main-footer-list">
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Facebook</a>
+                            <i class="fa fa-facebook-official main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Facebook</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Twitter</a>
+                            <i class="fa fa-twitter-square main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Twitter</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Instagram</a>
+                            <i class="fa fa-instagram main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Instagram</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">LinkedIn</a>
+                            <i class="fa fa-linkedin-square main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">LinkedIn</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Google+</a>
+                            <i class="fa fa-google-plus-square main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Google+</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Youtube</a>
+                            <i class="fa fa-youtube-square main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Youtube</a>
                         </li>
                         <li class="main-footer-list__item">
-                            <a href="#" class="main-footer-list__social-link">Pinterest</a>
+                            <i class="fa fa-pinterest-square main-footer-list__icon" aria-hidden="true"></i><a href="#" class="main-footer-list__social-link">Pinterest</a>
                         </li>
                     </ul>
                 </div>
                 <div class="main-footer__userful-link main-footer-userful-link">
-                    <h4 class="main-footer-userful-link__title">Instagram</h4>
-                    <img src="#" alt="" class="main-footer-userful-link__instagram-img">
+                    <h4 class="main-footer__userful-link-title">Instagram</h4>
+                    <img src="../img/img-instagram-layer.jpg" width="209" height="140" alt="Instagram" class="main-footer-userful-link__instagram-img">
                     <input type="text" class="main-footer-userful-link__search">
                 </div>
             </div>

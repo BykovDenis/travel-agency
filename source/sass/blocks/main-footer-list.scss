@@ -1,0 +1,33 @@
+.main-footer-list {
+  list-style: none;
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 77px;
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: $color-black;
+    font: 400 #{$base-font-size} / 1.125 $poppins-font-family;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-decoration: none;
+  }
+  &__social-link {
+    color: $color-black;
+    max-width: 112px;
+    font: 400 #{$base-font-size} / 1.125 $poppins-font-family;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: normal;
+    text-decoration: none;
+  }
+  &__icon {
+    padding-right: 10px;
+    color: $color-light-blue
+  }
+}

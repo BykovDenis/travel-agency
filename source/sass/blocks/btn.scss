@@ -24,4 +24,12 @@
     width: 148px;
     border-radius: 0;
   }
+  &--submit-form {
+    border-radius: 0;
+    border: 0;
+    width: 140px;
+    height: 45px;
+    box-shadow: 1px 1px 1px rgba(33, 30, 31, 0.2);
+    background-color: #ef5b5b;
+  }
 }

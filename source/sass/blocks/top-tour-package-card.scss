@@ -86,4 +86,8 @@
     font: 900 22px/1.18 $montserrat-font-family;
     color: $color-light-blue;
   }
+  &__img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 }
