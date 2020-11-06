@@ -36,4 +36,8 @@
     font: 600 14px / 1.86 $montserrat-font-family;
     color: $base-font-color;
   }
+  &__img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 }
