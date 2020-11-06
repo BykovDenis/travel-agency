@@ -19,14 +19,14 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    font: 400 #{$base-font-size} / 1.5 $poppins-font-family;
+    font: 400 20px / 1.5 $poppins-font-family;
     color: $color-gray;
-    padding-left: 25px;
+    padding-left: 30px;
   }
   &__input {
     box-sizing: border-box;

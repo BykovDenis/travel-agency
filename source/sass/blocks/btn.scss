@@ -3,7 +3,7 @@
   color: $color-white;
   font: 600 14px / 0.54 $montserrat-font-family;
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 15px 30px;
   text-transform: uppercase;
   text-decoration: none;
   &:hover {
@@ -31,5 +31,11 @@
     height: 45px;
     box-shadow: 1px 1px 1px rgba(33, 30, 31, 0.2);
     background-color: #ef5b5b;
+  }
+  &--book-now {
+    padding: 20px 30px;
+    width: 112px;
+    display: block;
+    text-align: center;
   }
 }
