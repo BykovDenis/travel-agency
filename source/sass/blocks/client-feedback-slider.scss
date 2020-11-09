@@ -4,6 +4,7 @@
     width: 834px;
     position: relative;
     margin: 0 auto;
+    margin-bottom: 30px;
     text-align: center;
   }
   &__avatars {
@@ -12,7 +13,6 @@
     flex-direction: row;
     align-items: center;
     list-style: none;
-    margin-bottom: 30px;
   }
   &__avatar {
     margin: 0;
@@ -48,9 +48,9 @@
     border: 0;
   }
   &__prev {
-    left: 150px;
+    left: 163px;
   }
   &__next {
-    right: 150px;
+    right: 173px;
   }
 }

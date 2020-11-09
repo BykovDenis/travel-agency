@@ -24,7 +24,9 @@
   }
   &__title {
     font: 900 48px / 0.58 $poppins-font-family;
+    letter-spacing: 1.5px;
     color: $color-white;
+    margin-left: 26px;
   }
 }
 
