@@ -8,17 +8,21 @@
     justify-content: space-between;
   }
   &__column {
-    padding-top: 104px;
+    padding-top: 98px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     &:first-of-type {
       margin-right: 90px;
     }
+    & > a {
+      margin-top: -10px;
+    }
   }
   &__description {
-    /* Style for "Pleasure a" */
+    margin-top: 10px;
+    margin-bottom: 35px;
     max-width: 462px;
     color: $color-gray;
     font: 400 #{$base-font-size} / 1.75 $poppins-font-family;

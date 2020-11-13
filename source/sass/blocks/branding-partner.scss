@@ -21,14 +21,14 @@
     color: $color-light-red;
     margin: 0;
     margin-bottom: 10px;
-    padding-top: 150px;
+    padding-top: 195px;
     text-align: center;
   }
   &__title {
     font: 600 28px / 0.93 $montserrat-font-family;
     color: $color-white;
     margin: 0;
-    margin-bottom: 90px;
+    margin-bottom: 75px;
     text-align: center;
   }
   &__img-container {
@@ -38,7 +38,7 @@
     justify-content: center;
   }
   &__img {
-    margin-left: 80px;
+    margin-left: 100px;
     &:first-of-type {
       margin-left: 0;
     }
