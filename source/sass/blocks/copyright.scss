@@ -1,0 +1,17 @@
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+  width: 100%;
+  min-height: 50px;
+  background-color: $color-light-blue;
+  &__title {
+    color: $color-gray-2;
+    font: 400 #{$base-font-size} / 0.94 $myriad-font-family;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+}

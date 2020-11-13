@@ -14,11 +14,15 @@
   &__img-container {
     position: relative;
     margin-left: -25px;
+    margin-top: -15px;
+    font-size: 0;
   }
   &__img {
-    margin-left: -25px;
+    margin-left: -14px;
   }
   &__title {
+    margin-top: 52px;
+    margin-bottom: 7px;
     font: 900 28px / 1.64 $montserrat-font-family;
     color: $base-font-color;
     text-transform: uppercase;
@@ -69,7 +73,7 @@
     align-items: flex-start;
     margin: 0 auto;
     padding: 0;
-    width: 90px;
+    width: 100px;
     margin-left: 40px;
     & > p {
       margin: 0;

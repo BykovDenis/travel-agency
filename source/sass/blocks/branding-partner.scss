@@ -1,7 +1,18 @@
 .branding-partner {
-  background-color: $color-black-2;
+  position: relative;
+  background-color: rgba($color-black-origin, 0.8);
   color: $color-white;
   text-align: center;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    background-image: url($base-path-img + 'bg-branding-partner.jpg');
+  }
   &__container {
     padding-bottom: 200px;
   }
@@ -10,14 +21,14 @@
     color: $color-light-red;
     margin: 0;
     margin-bottom: 10px;
-    padding-top: 150px;
+    padding-top: 195px;
     text-align: center;
   }
   &__title {
     font: 600 28px / 0.93 $montserrat-font-family;
     color: $color-white;
     margin: 0;
-    margin-bottom: 90px;
+    margin-bottom: 75px;
     text-align: center;
   }
   &__img-container {
@@ -27,7 +38,7 @@
     justify-content: center;
   }
   &__img {
-    margin-left: 80px;
+    margin-left: 100px;
     &:first-of-type {
       margin-left: 0;
     }

@@ -1,7 +1,4 @@
-.choose-us {
-  padding-top: 67px;
-  padding-bottom: 138px;
-  background-color: $bg-part;
+.feedback-message {
   &__container {
     width: $container-width;
     margin: 0 auto;
@@ -11,14 +8,14 @@
     color: $color-light-red;
     margin: 0;
     margin-bottom: 10px;
-    margin-top: 80px;
+    margin-top: 150px;
     text-align: center;
   }
   &__title {
     font: 700 28px / 0.93 $montserrat-font-family;
     color: $base-font-color;
     margin: 0;
-    margin-bottom: 69px;
+    margin-bottom: 100px;
     text-align: center;
   }
 }

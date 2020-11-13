@@ -12,13 +12,14 @@
     min-height: 199px;
     border: 1px solid $color-middle-gray;
     margin-right: 25px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
   &__title {
     font: 700 24px / 1.08 $montserrat-font-family;
     color: $base-font-color;
     margin: 0;
     margin-bottom: 15px;
+    margin-top: 18px;
     text-align: left;
   }
   &__countries {

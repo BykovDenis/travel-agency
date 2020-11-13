@@ -1,0 +1,33 @@
+.quick-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 53px;
+  width: 200px;
+  height: 35px;
+  box-shadow: 1px 1px 1px rgba(33, 30, 31, 0.2);
+  border-radius: 6px;
+  background-color: #ffffff;
+  &__input {
+    padding: 11px 14px;
+    box-sizing: border-box;
+    width: 170px;
+    height: 35px;
+    color: $color-gray;
+    font: 600 14px / 2 $poppins-font-family;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    border: 0;
+    border-radius: 6px 0 0 6px;
+  }
+  &__btn {
+    color: white;
+    width: 30px;
+    height: 35px;
+    padding: 0;
+    border: 0;
+    border-radius: 0 6px 6px 0;
+    background-color: #00b1ff;
+  }
+}

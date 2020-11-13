@@ -29,9 +29,17 @@
 @import './blocks/latest-blog-card';
 @import './blocks/official-apps';
 @import './blocks/branding-partner';
+@import './blocks/subscribe';
+@import './blocks/subscribe-form';
+@import './blocks/feedback-message';
+@import './blocks/feedback-message-form';
+@import './blocks/main-footer';
+@import './blocks/main-footer-list';
+@import './blocks/quick-search';
+@import './blocks/copyright';
 
 body {
-  width: 100%;
+  width: 1920px;
   margin: 0 auto;
   color: $base-font-color;
 }

@@ -15,10 +15,12 @@
     font: #{$base-font-size} / #{0.94} $base-font-family;
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-weight: 700;
   }
   &__title2 {
     font: 13px / 0.76 $myriad-font-family;
     text-transform: uppercase;
+    font-weight: 700;
   }
   &__img {
     margin-right: 5px;
