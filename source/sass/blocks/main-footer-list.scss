@@ -16,6 +16,9 @@
     text-transform: uppercase;
     letter-spacing: normal;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__social-link {
     color: $color-black;
@@ -25,6 +28,9 @@
     text-align: left;
     letter-spacing: normal;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   &__icon {
     padding-right: 10px;
